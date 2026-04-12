@@ -6,6 +6,9 @@
     <link rel="icon" href="images/knight.svg">
     </link>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171629673-2"></script>
     <script>
@@ -25,11 +28,17 @@
 </head>
 
 <body>
-    <div class="dark-mode">
+    <div class="dark-mode" style="display: flex;">
         <label class="dark-mode-switch">
             <input type="checkbox">
             <span class="slider"></span>
         </label>
+        <select id="language-select" style="padding: 8px 12px; border-radius: 20px; border: 2px solid #4a4a4a; background-color: #2d2d2d; color: #fff; font-size: 14px; cursor: pointer; outline: none; margin-left: 10px;">
+            <option selected value="en">Select a language</option>
+            <option value="en">English</option>
+            <option value="ar">العربية (Arabic)</option>
+            <option value="fr">Français (French)</option>
+        </select>
     </div>
 
 
@@ -39,8 +48,8 @@
             <header>
                 <img src="images/logo.webp" alt="logo" />
                 <div class="title">
-                    <h1>Fortknight</h1>
-                    <h2>Chess Battle Royale</h2>
+                    <h1 class="title" data-i18n="ui.title">Fortknight</h1>
+                    <h2 class="subtitle" data-i18n="ui.subtitle">Chess Battle Royale</h2>
                 </div>
             </header>
             <div class="board">
@@ -62,7 +71,7 @@
                         <p class="fixed-color" style="color:white">Your score: <span class="fixed-color"
                                 style="color:white"></span></p>
                     </div>
-                    <button onclick="resetGame();">Begin</button>
+                    <button data-i18n="ui.begin" onclick="resetGame();">Begin</button>
                 </div>
             </div>
             <div id="assets" style="display:none">
@@ -99,16 +108,16 @@
                     <p>Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any
                         turn.</p>
 
-                    <span id="gmode-help" class="hidden">You must <button class="button"
+                    <span id="gmode-help" class="hidden">You must <button class="button" data-i18n="ui.forfeit"
                             onclick="forfeitGame()">Forfeit</button> in order to change the game mode</span>
                     <fieldset class="gmode">
                         <legend>
-                            <h3>Game Mode Choice</h3>
+                            <h3 data-i18n="ui.game_mode">Game Mode Choice</h3>
                         </legend>
                         <div id="wrap">
-                            <label>
+                            <label >
                                 <input name="diff" value="classic" type="radio" checked />
-                                Classic
+                                <span data-i18n="ui.classic">Classic</span>
                             </label>
                             <br>
                             <label>
@@ -133,7 +142,8 @@
                             <br>
                             <label>
                                 <input name="diff" value="arcade" type="radio" />
-                                Arcade <text style="color: red"> (Pieces move based on a timer)</text>
+                                <span data-i18n="ui.arcade">Arcade</span>
+                                <text style="color: red"> (Pieces move based on a timer)</text>
                             </label>
                             <br>
                             <label>
@@ -143,7 +153,7 @@
                             </label>
                         </div>
                     </fieldset>
-                    <h3>Scoring:</h3>
+                    <h3 data-i18n="ui.scoring">Scoring:</h3>
                     <div class="rules">
                         <p style="color: #8CA1C5">+1 point for every turn on the field</p>
                         <p style="color: #467AD5">+2 points for every king taken</p>
@@ -213,6 +223,7 @@
 
     <script src="js/dom_events.js"></script>
     <script src="js/debug.js"></script>
+    <script src="js/i18n-config.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "title": "Fortknight",
+    "subtitle": "Chess Battle Royale",
+    "begin": "Begin",
+    "game_mode": "Game Mode Choice",
+    "classic": "Classic",
+    "arcade": "Arcade",
+    "forfeit": "Forfeit",
+    "scoring": "Scoring"
+  },
+  "game": {
+    "checkmate": "Checkmate!",
+    "stalemate": "Stalemate!"
+  }
+}
