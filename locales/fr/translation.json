@@ -1,16 +1,16 @@
 {
   "ui": {
-    "title": "Fortknight",
-    "subtitle": "Chess Battle Royale",
-    "begin": "Begin",
-    "game_mode": "Game Mode Choice",
-    "classic": "Classic",
+    "title": "Fortchevalier",
+    "subtitle": "Bataille royale d'échecs",
+    "begin": "Commencer",
+    "game_mode": "Choix du mode de jeu",
+    "classic": "Classique",
     "arcade": "Arcade",
     "forfeit": "Perdre",
     "scoring": "Système de points"
   },
   "game": {
-    "checkmate": "Checkmate!",
-    "stalemate": "Stalemate!"
+    "checkmate": "Échec et mat !",
+    "stalemate": "Impasse!"
   }
 }
