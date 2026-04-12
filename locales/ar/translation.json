@@ -7,7 +7,8 @@
     "classic": "Classic",
     "arcade": "Arcade",
     "forfeit": "Forfeit",
-    "scoring": "Scoring"
+    "scoring": "Scoring",
+    "instructions": "Instructions"
   },
   "game": {
     "checkmate": "Checkmate!",
