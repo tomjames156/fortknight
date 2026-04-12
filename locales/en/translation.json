@@ -12,6 +12,8 @@
   },
   "game": {
     "checkmate": "Checkmate!",
-    "stalemate": "Stalemate!"
+    "stalemate": "Stalemate!",
+    "score": "Score: <span id='score'>{{val}}</span>",
+    "hiscore": "Highscore: <span id='hiscore'>{{val}}</span>"
   }
 }
