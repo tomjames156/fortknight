@@ -6,7 +6,8 @@
     "game_mode": "Game Mode Choice",
     "classic": "Classic",
     "arcade": "Arcade",
-    "forfeit": "Forfeit"
+    "forfeit": "Forfeit",
+    "scoring": "Scoring"
   },
   "game": {
     "checkmate": "Checkmate!",
