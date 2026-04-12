@@ -3,12 +3,12 @@
     "title": "Fortknight",
     "subtitle": "Chess Battle Royale",
     "begin": "Begin",
-    "game_mode": "Game Mode Choice",
+    "game_mode": "Spielmodusauswahl",
     "classic": "Classic",
     "arcade": "Arcade",
     "forfeit": "Forfeit",
     "scoring": "Scoring",
-    "instructions": "Instructions"
+    "instructions": "Anweisungen"
   },
   "game": {
     "checkmate": "Checkmate!",
