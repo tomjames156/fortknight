@@ -16,33 +16,33 @@
     "pieces_have_move_order": "(Les pièces ont un ordre de mouvement)",
     "drunk": "Morceaux ivres",
     "pieces_always_move_randomly": "(Les pièces se déplacent toujours de manière aléatoire)",
-    "loop": "Loop Pieces",
-    "pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move": "(Pieces on the edge rotate By 90 degrees Anti-Clockwise every move)",
-    "faq": "FAQ",
-    "yes_i_know": "yes, i know the chessboard only has 7 squares, not 8, but i wanted a centre square",
-    "scores_and_achievements": "Scores and achievements",
-    "high_scores": "High scores",
-    "high_scores_by_game_mode": "High scores, by game mode",
-    "achievements": "Achievements",
-    "on": "ON",
-    "off": "OFF",
-    "toggle_knights": "Toggle Knight's ",
-    "possible_moves": "possible moves",
-    "debug": "DEBUG",
-    "debug_info": "Debug Informations",
-    "move_timer": "Move Timer: ",
-    "achievement_unlocked": "Achievement Unlocked!",
-    "lost": "You lost :",
-    "score": "Your score: ",
+    "loop": "Boucles de pièces",
+    "pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move": "(Les pièces sur le bord tournent de 90 degrés dans le sens inverse des aiguilles d'une montre à chaque mouvement)",
+    "faq": "Foire aux questions",
+    "yes_i_know": "oui, je sais que l'échiquier n'a que 7 cases, pas 8, mais je voulais une case centrale",
+    "scores_and_achievements": "Scores et réalisations",
+    "high_scores": "Scores élevés",
+    "high_scores_by_game_mode": "Scores élevés, par mode de jeu",
+    "achievements": "Réalisations",
+    "on": "ALLUMER",
+    "off": "ÉTEINT",
+    "toggle_knights": "Basculer le Chevalier ",
+    "possible_moves": "mouvements possibles",
+    "debug": "DÉBOGUER",
+    "debug_info": "Informations de débogage",
+    "move_timer": "Minuteur de déplacement ",
+    "achievement_unlocked": "Succès débloqué !",
+    "lost": "Vous avez perdu :",
+    "score": "Votre score : ",
     "instructions": "Directives",
-    "score_count": "Score: ",
-    "highscore": "Highscore: ",
-    "click_square": "Click on a square to move.",
-    "rules.pieces_start_small": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "rules.pawns_move": "Pawns move in direction indicated every 2 turns and can take on forward diagonals in any turn.",
-    "ui.skip_turn": "To skip a turn, click your knight.",
-    "ui.pieces_move": "Pieces will move to take your knight if they can; or randomly otherwise",
-    "ui.small_pieces_block": "Small pieces block the movement of other pieces, but big pieces don't. However, you can land on small pieces and if a big piece can't move, it dies. "
+    "score_count": "Score : ",
+    "highscore": "Score élevé : ",
+    "click_square": "Cliquez sur une case pour vous déplacer.",
+    "rules.pieces_start_small": "Les pièces commencent petites pendant 3 tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "rules.pawns_move": "Les pions se déplacent dans la direction indiquée tous les 2 tours et peuvent prendre en diagonale vers l'avant à tout tour.",
+    "ui.skip_turn": "Pour passer un tour, cliquez sur votre cavalier.",
+    "ui.pieces_move": "Les pièces se déplaceront pour prendre votre cavalier si elles le peuvent ; ou au hasard sinon",
+    "ui.small_pieces_block": "Les petites pièces bloquent le mouvement des autres pièces, mais les grandes pièces ne le font pas. Cependant, vous pouvez atterrir sur les petites pièces et si une grande pièce ne peut pas bouger, elle meurt. "
   },
   "game": {
     "checkmate": "Échec et mat !",
@@ -84,89 +84,89 @@
       "description_other": "Avoir {{count}} tours sur l'échiquier en même temps"
     },
     "cathedral": {
-      "name": "Cathedral",
-      "description_one": "Have {{count}} bishop on the board at the same time",
-      "description_other": "Have {{count}} bishops on the board at the same time"
+      "name": "Cathédrale",
+      "description_one": "Avoir {{count}} fou sur le plateau en même temps",
+      "description_other": "Avoir {{count}} fous sur l'échiquier en même temps"
     },
     "bar_fight": {
-      "name": "Bar Fight",
-      "description_one": "Have {{count}} pawn on the board at the same time",
-      "description_other": "Have {{count}} pawns on the board at the same time"
+      "name": "Bagarre de bar",
+      "description_one": "Avoir {{count}} pions sur le plateau en même temps",
+      "description_other": "Avoir {{count}} pions sur le plateau en même temps"
     },
     "barracks": {
-      "name": "Barracks",
-      "description_one": "Have {{count}} pawn on the board at the same time (non-drunk mode)",
-      "description_other": "Have {{count}} pawns on the board at the same time (non-drunk mode)"
+      "name": "Caserne",
+      "description_one": "Avoir {{count}} pions sur le plateau en même temps (mode non ivre)",
+      "description_other": "Avoir {{count}} pions sur le plateau en même temps (mode non ivre)"
     },
     "stables": {
-      "name": "Stables",
-      "description_one": "Have {{count}} knight on the board at the same time",
-      "description_other": "Have {{count}} knights on the board at the same time"
+      "name": "Écuries",
+      "description_one": "Avoir {{count}} chevaliers sur le plateau en même temps",
+      "description_other": "Avoir {{count}} chevaliers sur le plateau en même temps"
     },
     "endgame": {
-      "name": "Endgame",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "Fin de partie",
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur l'échiquier en même temps"
     },
     "no_place_to_hide": {
-      "name": "No Place to Hide",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "Aucun endroit pour se cacher",
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur l'échiquier en même temps"
     },
     "helltaker": {
       "name": "Helltaker",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur le plateau en même temps"
     },
     "10slay": {
-      "name": "10 Slayer",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "10 Tueur",
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
     },
     "100slay": {
       "name": "Centurion",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
     },
     "500slay": {
-      "name": "Mountains of Ivory",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "Montagnes d'ivoire",
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
     },
     "1000steps": {
-      "name": "Journey of 1000 Steps",
-      "description_one": "Walk {{count}} step",
-      "description_other": "Walk {{count}} steps"
+      "name": "Voyage de 1000 étapes",
+      "description_one": "Marcher {{count}} pas",
+      "description_other": "Marchez {{count}} pas"
     },
     "threatened": {
-      "name": "Living Dangerously",
-      "description_one": "End your turn on a threatened square {{count}} time in a row.",
-      "description_other": "End your turn on a threatened square {{count}} times in a row."
+      "name": "Vivre dangereusement",
+      "description_one": "Terminez votre tour sur une case menacée {{count}} fois de suite.",
+      "description_other": "Terminez votre tour sur une case menacée {{count}} fois consécutives."
     },
     "triple_kill": {
-      "name": "Triple Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Triple élimination",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
     },
     "penta_kill": {
-      "name": "Penta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Pentakill",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
     },
     "hepta_kill": {
-      "name": "Hepta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Hepta Kil",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
     },
     "royal_pariah": {
-      "name": "Royal Pariah",
-      "description_one": "Have every single piece on the board.",
-      "description_other": "Have every single piece on the board."
+      "name": "Paria royal",
+      "description_one": "Avoir chaque pièce sur le plateau.",
+      "description_other": "Avoir chaque pièce sur le plateau."
     },
     "your_lucky_day": {
-      "name": "Your Lucky Day",
-      "description_one": "Avoid potentially getting captured {{count}} time in a row (drunk mode only)",
-      "description_other": "Avoid potentially getting captured {{count}} times in a row (drunk mode only)"
+      "name": "Votre jour de chance",
+      "description_one": "Évitez de vous faire capturer potentiellement {{count}} fois de suite (mode ivre seulement)",
+      "description_other": "Évitez de vous faire capturer potentiellement {{count}} fois de suite (mode ivre seulement)"
     }
   }
 }
