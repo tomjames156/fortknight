@@ -1,5 +1,6 @@
 {
   "ui": {
+    "choose_language": "Choisir la langue",
     "title": "Fortchevalier",
     "subtitle": "Bataille royale d'échecs",
     "begin": "Commencer",
@@ -8,7 +9,8 @@
     "arcade": "Arcade",
     "forfeit": "Perdre",
     "scoring": "Système de points",
-    "instructions": "Instructions"
+    "instructions": "Instructions",
+    "last_played_label": "Dernière partie jouée :"
   },
   "game": {
     "checkmate": "Échec et mat !",

@@ -1,5 +1,6 @@
 {
   "ui": {
+    "choose_language": "Choose Language", 
     "title": "Fortknight",
     "subtitle": "Chess Battle Royale",
     "begin": "Begin",
@@ -8,7 +9,8 @@
     "arcade": "Arcade",
     "forfeit": "Forfeit",
     "scoring": "Scoring",
-    "instructions": "Instructions"
+    "instructions": "Instructions",
+    "last_played_label": "Last played:"
   },
   "game": {
     "checkmate": "Checkmate!",
