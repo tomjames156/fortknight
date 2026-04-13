@@ -6,16 +6,16 @@
     "game_mode": "Choix du mode de jeu",
     "classic": "Classique",
     "arcade": "Arcade",
-    "pieces_move_based_on_a_timer": "(Pieces move based on a timer)",
+    "pieces_move_based_on_a_timer": "(Les pièces se déplacent en fonction d'un minuteur)",
     "forfeit": "Perdre",
-    "pacifist": "Pacifist",
-    "no_score_for_kills": "(No score for kills)",
-    "knightmare": "Knightmare",
-    "only_knight_pieces": "(Only knight pieces)",
-    "strategist": "Strategist",
-    "pieces_have_move_order": "(Pieces have move order)",
-    "drunk": "Drunk pieces",
-    "pieces_always_move_randomly": "(Pieces always move randomly)",
+    "pacifist": "Pacifiste",
+    "no_score_for_kills": "(Aucun point pour les éliminations)",
+    "knightmare": "Chevalier cauchemar",
+    "only_knight_pieces": "(Seulement les pièces de cavalier)",
+    "strategist": "Stratège",
+    "pieces_have_move_order": "(Les pièces ont un ordre de mouvement)",
+    "drunk": "Morceaux ivres",
+    "pieces_always_move_randomly": "(Les pièces se déplacent toujours de manière aléatoire)",
     "loop": "Loop Pieces",
     "pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move": "(Pieces on the edge rotate By 90 degrees Anti-Clockwise every move)",
     "faq": "FAQ",
@@ -49,39 +49,39 @@
     "stalemate": "Impasse!"
   },
   "rules": {
-    "turn_points_one": "+{{count}} point for every turn on the field",
-    "turn_points_other": "+{{count}} points for every turn on the field",
-    "king_points_one": "+{{count}} point for every king taken",
-    "king_points_other": "+{{count}} points for every king taken",
-    "piece_points_one": "+{{count}} point for every knight, bishop, rook taken",
-    "piece_points_other": "+{{count}} points for every knight, bishop, rook taken",
-    "queen_points_one": "+{{count}} point for every queen taken",
-    "queen_points_other": "+{{count}} points for every queen taken",
-    "pieces_start_small_one": "Pieces start small for {{count}} turn. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "pieces_start_small_other": "Pieces start small for {{count}} turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "pawns_move_one": "Pawns move in direction indicated every {{count}} turn and can take on forward diagonals in any turn.",
-    "pawns_move_other": "Pawns move in direction indicated every {{count}} turns and can take on forward diagonals in any turn."
+    "turn_points_one": "{{count}} Point pour chaque tour sur le terrain",
+    "turn_points_other": "{{count}} Points pour chaque tour sur le terrain",
+    "king_points_one": "{{count}} Un point pour chaque roi capturé",
+    "king_points_other": "{{count}} Points pour chaque roi capturé",
+    "piece_points_one": "{{count}} Un point pour chaque cavalier, fou, tour pris",
+    "piece_points_other": "{{count}} Points pour chaque cavalier, fou, tour pris",
+    "queen_points_one": "{{count}} Un point pour chaque reine capturée",
+    "queen_points_other": "{{count}} Points pour chaque reine capturée",
+    "pieces_start_small_one": "Les pièces commencent petites pour {{count}} le tour. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "pieces_start_small_other": "Les pièces commencent petites pendant {{count}} tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "pawns_move_one": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à tout moment.",
+    "pawns_move_other": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à n'importe quel tour."
   },
   "achievements": {
     "lazy": {
-      "name": "Lazy",
-      "description_one": "Don't move for {{count}} consecutive turn",
-      "description_other": "Don't move for {{count}} consecutive turns"
+      "name": "Paresseux",
+      "description_one": "Ne bouge pas pendant {{count}} tours consécutifs",
+      "description_other": "Ne bouge pas pendant {{count}} tours consécutifs"
     },
     "crowded": {
-      "name": "Crowded",
-      "description_one": "Have {{count}} piece on the board at the same time",
-      "description_other": "Have {{count}} pieces on the board at the same time"
+      "name": "Bondé",
+      "description_one": "Avoir {{count}} pièces sur le plateau en même temps",
+      "description_other": "Avoir {{count}} pièces sur le plateau en même temps"
     },
     "coronation": {
-      "name": "Coronation",
-      "description_one": "Have {{count}} king on the board at the same time",
-      "description_other": "Have {{count}} kings on the board at the same time"
+      "name": "Couronnement",
+      "description_one": "Avoir {{count}} roi sur le plateau en même temps",
+      "description_other": "Avoir {{count}} rois sur le plateau en même temps"
     },
     "parapets": {
       "name": "Parapets",
-      "description_one": "Have {{count}} rook on the board at the same time",
-      "description_other": "Have {{count}} rooks on the board at the same time"
+      "description_one": "Avoir {{count}} tours sur le plateau en même temps",
+      "description_other": "Avoir {{count}} tours sur l'échiquier en même temps"
     },
     "cathedral": {
       "name": "Cathedral",
