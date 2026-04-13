@@ -46,7 +46,7 @@
   },
   "game": {
     "checkmate": "Échec et mat !",
-    "stalemate": "Impasse !"
+    "stalemate": "Impasse!"
   },
   "rules": {
     "turn_points_one": "{{count}} Point pour chaque tour sur le terrain",
