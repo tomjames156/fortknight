@@ -196,8 +196,8 @@
     },
     "your_lucky_day": {
       "name": "Your Lucky Day",
-      "description_one": "Avoid potentially getting captured {{count}} time in a row (drunk mode only)",
-      "description_other": "Avoid potentially getting captured {{count}} times in a row (drunk mode only)"
+      "description_one": "تجنب التعرض للإمساك المحتمل {{count}} مرة على التوالي (وضع السكر فقط)",
+      "description_other": "تجنب التعرض للإمساك المحتمل {{count}} مرة على التوالي (وضع السكر فقط)"
     }
   }
 }
