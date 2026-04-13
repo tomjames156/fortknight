@@ -53,7 +53,7 @@
     "pieces_start_small": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
     "pawns_move": "Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any turn."
   },
-  "pacifist":{
+  "pacifist": {
     "scoring_rule_1": "Only get points for staying alive",
     "scoring_rule_2": "0.25 points for every (big) pawn on the board",
     "scoring_rule_3": "0.5 points for every knight, bishop, rook on the board",
@@ -72,7 +72,7 @@
     "scoring_rule_5": "+3 points for every knight, bishop, rook taken",
     "scoring_rule_6": "+5 points for every queen taken"
   },
-  "drunk":{
+  "drunk": {
     "scoring_rule_1": "+1 point for every turn on the field",
     "scoring_rule_2": "+1 point for every pawn taken",
     "scoring_rule_3": "+2 points for every king taken",
