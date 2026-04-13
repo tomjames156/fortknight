@@ -33,13 +33,12 @@
             <input type="checkbox">
             <span class="slider"></span>
         </label>
-        <select id="language-select" style="padding: 8px 12px; border-radius: 20px; border: 2px solid #4a4a4a; background-color: #2d2d2d; color: #fff; font-size: 14px; cursor: pointer; outline: none; margin-left: 10px;">
+        <select id="language-select"
+            style="padding: 8px 12px; border-radius: 20px; border: 2px solid #4a4a4a; background-color: #2d2d2d; color: #fff; font-size: 14px; cursor: pointer; outline: none; margin-left: 10px;">
             <option selected value="en">Select a language</option>
             <option value="en">English</option>
             <option value="ar">العربية (Arabic)</option>
             <option value="fr">Français (French)</option>
-            <option value="de">Deutsch (German)</option>
-            <option value="es">Español (Spanish)</option>
         </select>
     </div>
 
@@ -59,7 +58,7 @@
                     style="position:absolute; top: 0; bottom: 0;left: 0;right: 0; margin: auto; bottom: 200px; opacity: 1; visibility: hidden; z-index:1000">
                     <div style="text-align: center; display:block; padding: 5px 10px; background: rgba(0,0,0,0.7); color:white"
                         class="ach_modal_inner">
-                        <h3>Achievement Unlocked!</h3>
+                        <h3 data-i18n="ui.achievement_unlocked">Achievement Unlocked!</h3>
                         <p id="ach_modal_name"><span></span></p>
                         <h5 id="ach_modal_descr"><span></span></h5>
                         <button onclick="dismissAchvModal()">Dismiss</button>
@@ -69,9 +68,9 @@
                 <!-- generate board here -->
                 <div class="boardModal">
                     <div class="loss_modal">
-                        <h1 class="fixed-color" style="color:white">You lost :(</h1>
-                        <p class="fixed-color" style="color:white">Your score: <span class="fixed-color"
-                                style="color:white"></span></p>
+                        <h1 data-i18n="ui.lost" class="fixed-color" style="color:white">You lost :</h1>
+                        <p data-i18n="ui.score" class="fixed-color" style="color:white">Your score: <span
+                                class="fixed-color" style="color:white"></span></p>
                     </div>
                     <button data-i18n="ui.begin" onclick="resetGame();">Begin</button>
                 </div>
@@ -93,21 +92,25 @@
         </div>
         <div class="sidebar">
             <div class="selected">
-                <p>Instructions</p>
+                <p data-i18n="ui.instructions">Instructions</p>
                 <div>
                     <div>
-                        <h2>Score: <span id="score">0</span></h2>
-                        <h3>Highscore: <span id="hiscore"></span></h3>
+                        <h2 data-i18n="ui.score_count">Score: <span id="score">0</span></h2>
+                        <h3 data-i18n="ui.highscore">Highscore: <span id="hiscore"></span></h3>
                     </div>
                     <h2 data-i18n="ui.instructions">Instructions</h2>
-                    <p>Click on a square to move.</p>
-                    <p>Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't
+                    <p data-i18n="ui.click_square">Click on a square to move.</p>
+                    <p data-i18n="rules.pieces_start_small" data-i18n-options='{"count": 3}'>Pieces start small for 3
+                        turns. Small pieces are harmless. Land on pieces to take them, but don't
                         let them land on you!</p>
-                    <p>To skip a turn, click your knight.</p>
-                    <p>Pieces will move to take your knight if they can; or randomly otherwise</p>
-                    <p>Small pieces block the movement of other pieces, but big pieces don't. However, you can land on
+                    <p data-i18n="ui.skip_turn">To skip a turn, click your knight.</p>
+                    <p data-i18n="ui.pieces_move">Pieces will move to take your knight if they can; or randomly
+                        otherwise</p>
+                    <p data-i18n="ui.small_pieces_block">Small pieces block the movement of other pieces, but big pieces
+                        don't. However, you can land on
                         small pieces and if a big piece can't move, it dies. </p>
-                    <p>Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any
+                    <p data-i18n="rules.pawns_move" data-i18n-options='{"count": 2}'>Pawns move in direction indicated
+                        every 2 turns and can take on forward diagonals in any
                         turn.</p>
 
                     <span id="gmode-help" class="hidden">You must <button class="button" data-i18n="ui.forfeit"
@@ -117,73 +120,88 @@
                             <h3 data-i18n="ui.game_mode">Game Mode Choice</h3>
                         </legend>
                         <div id="wrap">
-                            <label >
+                            <label>
                                 <input name="diff" value="classic" type="radio" checked />
                                 <span data-i18n="ui.classic">Classic</span>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="pacifist" type="radio" />
-                                Pacifist <text style="color: red"> (No score for kills)</text>
+                                <span data-i18n="ui.pacifist"> Pacifist </span> <text data-i18n="ui.no_score_for_kills"
+                                    style="color: red"> (No score for
+                                    kills)</text>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="knightmare" type="radio" />
-                                Knightmare <text style="color: red"> (Only knight pieces)</text>
+                                <span data-i18n="ui.knightmare"> Knightmare</span> <text
+                                    data-i18n="ui.only_knight_pieces" style="color: red"> (Only knight pieces)</text>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="strategist" type="radio" />
-                                Strategist <text style="color: red"> (Pieces have move order)</text>
+                                <span data-i18n="ui.strategist">Strategist</span> <text
+                                    data-i18n="ui.pieces_have_move_order" style="color: red"> (Pieces have move
+                                    order)</text>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="drunk" type="radio" />
-                                Drunk pieces <text style="color: red"> (Pieces always move randomly)</text>
+                                <span data-i18n="ui.drunk">Drunk pieces</span> <text
+                                    data-i18n="ui.pieces_always_move_randomly" style="color: red"> (Pieces always move
+                                    randomly)</text>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="arcade" type="radio" />
                                 <span data-i18n="ui.arcade">Arcade</span>
-                                <text style="color: red"> (Pieces move based on a timer)</text>
+                                <text data-i18n="ui.pieces_move_based_on_a_timer" style="color: red"> (Pieces move based
+                                    on a timer)</text>
                             </label>
                             <br>
                             <label>
                                 <input name="diff" value="loop" type="radio" />
-                                Loop Pieces <text style="color: red"> (Pieces on the edge rotate By 90 degrees
-                                    Anti-Clockwise every move)</text>
+                                <span data-i18n="ui.loop">Loop Pieces</span> <text
+                                    data-i18n="ui.pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move"
+                                    style="color: red"> (Pieces on the
+                                    edge rotate By 90 degrees Anti-Clockwise every move)</text>
                             </label>
                         </div>
                     </fieldset>
-                    <h3 data-i18n="ui.scoring">Scoring:</h3>
+                    <h3>Scoring:</h3>
                     <div class="rules">
-                        <p style="color: #8CA1C5">+1 point for every turn on the field</p>
-                        <p style="color: #467AD5">+2 points for every king taken</p>
-                        <p style="color: #CF469F">+3 points for every knight, bishop, rook taken</p>
-                        <p style="color: #30DE0D">+5 points for every queen taken</p>
+                        <p style="color: #8CA1C5" data-i18n="rules.turn_points" data-i18n-options='{"count": 1}'>+1
+                            point for every turn on the field</p>
+                        <p style="color: #467AD5" data-i18n="rules.king_points" data-i18n-options='{"count": 2}'>+2
+                            points for every king taken</p>
+                        <p style="color: #CF469F" data-i18n="rules.piece_points" data-i18n-options='{"count": 3}'>+3
+                            points for every knight, bishop, rook taken</p>
+                        <p style="color: #30DE0D" data-i18n="rules.queen_points" data-i18n-options='{"count": 5}'>+5
+                            points for every queen taken</p>
                     </div>
-                    <h3>FAQ</h3>
-                    <p>yes, i know the chessboard only has 7 squares, not 8, but i wanted a centre square</p>
+                    <h3 data-i18n="ui.faq">FAQ</h3>
+                    <p data-i18n="ui.yes_i_know"> yes, i know the chessboard only has 7 squares, not 8, but i wanted a
+                        centre square</p>
                 </div>
             </div>
             <div>
-                <p>Scores and achievements</p>
+                <p data-i18n="ui.scores_and_achievements">Scores and achievements</p>
                 <div>
-                    <h2>High scores</h2>
+                    <h2 data-i18n="ui.high_scores">High scores</h2>
                     <div class="allhscores">
                         <!--
 
 
                         -->
                     </div>
-                    <h2>High scores, by game mode</h2>
+                    <h2 data-i18n="ui.high_scores_by_game_mode">High scores, by game mode</h2>
                     <div class="ghscores">
                         <!--
 
 
                         -->
                     </div>
-                    <h2>Achievements</h2>
+                    <h2 data-i18n="ui.achievements">Achievements</h2>
                     <div class="achv">
                         <!--
 
@@ -194,15 +212,16 @@
             </div>
             <div class='toggleMovementProjection'>
                 <input type="checkbox" onclick="projectMovement()">
-                <label class="labelMovementProjection" id="onbtn">ON</label>
-                <label class="labelMovementProjection" id="offbtn">OFF</label>
-                <label style="font-size: 10px"><br>Toggle Knight's<br>possible moves</label>
+                <label data-i18n="ui.on" class="labelMovementProjection" id="onbtn">ON</label>
+                <label data-i18n="ui.off" class="labelMovementProjection" id="offbtn">OFF</label>
+                <label style="font-size: 10px"><br data-i18n="ui.toggle_knights">Toggle Knight's <br
+                        data-i18n="ui.possible_moves">possible moves</label>
             </div>
 
             <div class='debugTab hidden'>
-                <p id="show-debug">DEBUG</p>
+                <p data-i18n="ui.debug" id="show-debug">DEBUG</p>
                 <div>
-                    <h2>Debug Informations</h2>
+                    <h2 data-i18n="debug_info"> Debug Informations</h2>
                     <button id="reset-button">ResetLocalStorage</button>
                     <button id="test-button">TestAch</button>
                     <pre class="debug"></pre>
@@ -212,7 +231,7 @@
     </div>
 
     <div class="moveTimerBox" id="timer-box">
-        <h1> Move Timer: </h1>
+        <h1 data-i18n="ui.move_timer"> Move Timer: </h1>
         <progress value="0" max="2.5" id="timer-bar"></progress>
     </div>
     <script src="js/utils.js"></script>
