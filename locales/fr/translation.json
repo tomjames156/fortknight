@@ -6,12 +6,167 @@
     "game_mode": "Choix du mode de jeu",
     "classic": "Classique",
     "arcade": "Arcade",
+    "pieces_move_based_on_a_timer": "(Les pièces se déplacent en fonction d'un minuteur)",
     "forfeit": "Perdre",
-    "scoring": "Système de points",
-    "instructions": "Directives"
+    "pacifist": "Pacifiste",
+    "no_score_for_kills": "(Aucun point pour les éliminations)",
+    "knightmare": "Chevalier cauchemar",
+    "only_knight_pieces": "(Seulement les pièces de cavalier)",
+    "strategist": "Stratège",
+    "pieces_have_move_order": "(Les pièces ont un ordre de mouvement)",
+    "drunk": "Morceaux ivres",
+    "pieces_always_move_randomly": "(Les pièces se déplacent toujours de manière aléatoire)",
+    "loop": "Boucles de pièces",
+    "pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move": "(Les pièces sur le bord tournent de 90 degrés dans le sens inverse des aiguilles d'une montre à chaque mouvement)",
+    "faq": "Foire aux questions",
+    "yes_i_know": "oui, je sais que l'échiquier n'a que 7 cases, pas 8, mais je voulais une case centrale",
+    "scores_and_achievements": "Scores et réalisations",
+    "high_scores": "Scores élevés",
+    "high_scores_by_game_mode": "Scores élevés, par mode de jeu",
+    "achievements": "Réalisations",
+    "on": "ALLUMER",
+    "off": "ÉTEINT",
+    "toggle_knights": "Basculer le Chevalier ",
+    "possible_moves": "mouvements possibles",
+    "debug": "DÉBOGUER",
+    "debug_info": "Informations de débogage",
+    "move_timer": "Minuteur de déplacement ",
+    "achievement_unlocked": "Succès débloqué !",
+    "lost": "Vous avez perdu :",
+    "score": "Votre score : ",
+    "instructions": "Directives",
+    "score_count": "Score : ",
+    "highscore": "Score élevé : ",
+    "click_square": "Cliquez sur une case pour vous déplacer.",
+    "rules.pieces_start_small": "Les pièces commencent petites pendant 3 tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "rules.pawns_move": "Les pions se déplacent dans la direction indiquée tous les 2 tours et peuvent prendre en diagonale vers l'avant à tout tour.",
+    "ui.skip_turn": "Pour passer un tour, cliquez sur votre cavalier.",
+    "ui.pieces_move": "Les pièces se déplaceront pour prendre votre cavalier si elles le peuvent ; ou au hasard sinon",
+    "ui.small_pieces_block": "Les petites pièces bloquent le mouvement des autres pièces, mais les grandes pièces ne le font pas. Cependant, vous pouvez atterrir sur les petites pièces et si une grande pièce ne peut pas bouger, elle meurt. "
   },
   "game": {
     "checkmate": "Échec et mat !",
     "stalemate": "Impasse!"
+  },
+  "rules": {
+    "turn_points_one": "{{count}} Point pour chaque tour sur le terrain",
+    "turn_points_other": "{{count}} Points pour chaque tour sur le terrain",
+    "king_points_one": "{{count}} Un point pour chaque roi capturé",
+    "king_points_other": "{{count}} Points pour chaque roi capturé",
+    "piece_points_one": "{{count}} Un point pour chaque cavalier, fou, tour pris",
+    "piece_points_other": "{{count}} Points pour chaque cavalier, fou, tour pris",
+    "queen_points_one": "{{count}} Un point pour chaque reine capturée",
+    "queen_points_other": "{{count}} Points pour chaque reine capturée",
+    "pieces_start_small_one": "Les pièces commencent petites pour {{count}} le tour. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "pieces_start_small_other": "Les pièces commencent petites pendant {{count}} tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "pawns_move_one": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à tout moment.",
+    "pawns_move_other": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à n'importe quel tour."
+  },
+  "achievements": {
+    "lazy": {
+      "name": "Paresseux",
+      "description_one": "Ne bouge pas pendant {{count}} tours consécutifs",
+      "description_other": "Ne bouge pas pendant {{count}} tours consécutifs"
+    },
+    "crowded": {
+      "name": "Bondé",
+      "description_one": "Avoir {{count}} pièces sur le plateau en même temps",
+      "description_other": "Avoir {{count}} pièces sur le plateau en même temps"
+    },
+    "coronation": {
+      "name": "Couronnement",
+      "description_one": "Avoir {{count}} roi sur le plateau en même temps",
+      "description_other": "Avoir {{count}} rois sur le plateau en même temps"
+    },
+    "parapets": {
+      "name": "Parapets",
+      "description_one": "Avoir {{count}} tours sur le plateau en même temps",
+      "description_other": "Avoir {{count}} tours sur l'échiquier en même temps"
+    },
+    "cathedral": {
+      "name": "Cathédrale",
+      "description_one": "Avoir {{count}} fou sur le plateau en même temps",
+      "description_other": "Avoir {{count}} fous sur l'échiquier en même temps"
+    },
+    "bar_fight": {
+      "name": "Bagarre de bar",
+      "description_one": "Avoir {{count}} pions sur le plateau en même temps",
+      "description_other": "Avoir {{count}} pions sur le plateau en même temps"
+    },
+    "barracks": {
+      "name": "Caserne",
+      "description_one": "Avoir {{count}} pions sur le plateau en même temps (mode non ivre)",
+      "description_other": "Avoir {{count}} pions sur le plateau en même temps (mode non ivre)"
+    },
+    "stables": {
+      "name": "Écuries",
+      "description_one": "Avoir {{count}} chevaliers sur le plateau en même temps",
+      "description_other": "Avoir {{count}} chevaliers sur le plateau en même temps"
+    },
+    "endgame": {
+      "name": "Fin de partie",
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur l'échiquier en même temps"
+    },
+    "no_place_to_hide": {
+      "name": "Aucun endroit pour se cacher",
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur l'échiquier en même temps"
+    },
+    "helltaker": {
+      "name": "Helltaker",
+      "description_one": "Avoir {{count}} reines sur l'échiquier en même temps",
+      "description_other": "Avoir {{count}} reines sur le plateau en même temps"
+    },
+    "10slay": {
+      "name": "10 Tueur",
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
+    },
+    "100slay": {
+      "name": "Centurion",
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
+    },
+    "500slay": {
+      "name": "Montagnes d'ivoire",
+      "description_one": "Tuez {{count}} pièce adverse",
+      "description_other": "Tuez {{count}} les pièces adverses"
+    },
+    "1000steps": {
+      "name": "Voyage de 1000 étapes",
+      "description_one": "Marcher {{count}} pas",
+      "description_other": "Marchez {{count}} pas"
+    },
+    "threatened": {
+      "name": "Vivre dangereusement",
+      "description_one": "Terminez votre tour sur une case menacée {{count}} fois de suite.",
+      "description_other": "Terminez votre tour sur une case menacée {{count}} fois consécutives."
+    },
+    "triple_kill": {
+      "name": "Triple élimination",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
+    },
+    "penta_kill": {
+      "name": "Pentakill",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
+    },
+    "hepta_kill": {
+      "name": "Hepta Kil",
+      "description_one": "Tuez {{count}} pièce d'affilée.",
+      "description_other": "Tuez {{count}} pièces d'affilée."
+    },
+    "royal_pariah": {
+      "name": "Paria royal",
+      "description_one": "Avoir chaque pièce sur le plateau.",
+      "description_other": "Avoir chaque pièce sur le plateau."
+    },
+    "your_lucky_day": {
+      "name": "Votre jour de chance",
+      "description_one": "Évitez de vous faire capturer potentiellement {{count}} fois de suite (mode ivre seulement)",
+      "description_other": "Évitez de vous faire capturer potentiellement {{count}} fois de suite (mode ivre seulement)"
+    }
   }
 }

@@ -6,12 +6,167 @@
     "game_mode": "Spielmodusauswahl",
     "classic": "Classic",
     "arcade": "Arcade",
+    "pieces_move_based_on_a_timer": "(Pieces move based on a timer)",
     "forfeit": "Forfeit",
-    "scoring": "Scoring",
-    "instructions": "Anweisungen"
+    "pacifist": "Pacifist",
+    "no_score_for_kills": "(No score for kills)",
+    "knightmare": "Knightmare",
+    "only_knight_pieces": "(Only knight pieces)",
+    "strategist": "Strategist",
+    "pieces_have_move_order": "(Pieces have move order)",
+    "drunk": "Drunk pieces",
+    "pieces_always_move_randomly": "(Pieces always move randomly)",
+    "loop": "Loop Pieces",
+    "pieces_on_the_edge_rotate_by_90_degrees_anti_clockwise_every_move": "(Pieces on the edge rotate By 90 degrees Anti-Clockwise every move)",
+    "faq": "FAQ",
+    "yes_i_know": "yes, i know the chessboard only has 7 squares, not 8, but i wanted a centre square",
+    "scores_and_achievements": "Scores and achievements",
+    "high_scores": "High scores",
+    "high_scores_by_game_mode": "High scores, by game mode",
+    "achievements": "Achievements",
+    "on": "ON",
+    "off": "OFF",
+    "toggle_knights": "Toggle Knight's ",
+    "possible_moves": "possible moves",
+    "debug": "DEBUG",
+    "debug_info": "Debug Informations",
+    "move_timer": "Move Timer: ",
+    "achievement_unlocked": "Achievement Unlocked!",
+    "lost": "You lost :",
+    "score": "Your score: ",
+    "instructions": "Anweisungen",
+    "score_count": "Score: ",
+    "highscore": "Highscore: ",
+    "click_square": "Click on a square to move.",
+    "rules.pieces_start_small": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
+    "rules.pawns_move": "Pawns move in direction indicated every 2 turns and can take on forward diagonals in any turn.",
+    "ui.skip_turn": "To skip a turn, click your knight.",
+    "ui.pieces_move": "Pieces will move to take your knight if they can; or randomly otherwise",
+    "ui.small_pieces_block": "Small pieces block the movement of other pieces, but big pieces don't. However, you can land on small pieces and if a big piece can't move, it dies. "
   },
   "game": {
     "checkmate": "Checkmate!",
     "stalemate": "Stalemate!"
+  },
+  "rules": {
+    "turn_points_one": "+{{count}} point for every turn on the field",
+    "turn_points_other": "+{{count}} points for every turn on the field",
+    "king_points_one": "+{{count}} point for every king taken",
+    "king_points_other": "+{{count}} points for every king taken",
+    "piece_points_one": "+{{count}} point for every knight, bishop, rook taken",
+    "piece_points_other": "+{{count}} points for every knight, bishop, rook taken",
+    "queen_points_one": "+{{count}} point for every queen taken",
+    "queen_points_other": "+{{count}} points for every queen taken",
+    "pieces_start_small_one": "Pieces start small for {{count}} turn. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
+    "pieces_start_small_other": "Pieces start small for {{count}} turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
+    "pawns_move_one": "Pawns move in direction indicated every {{count}} turn and can take on forward diagonals in any turn.",
+    "pawns_move_other": "Pawns move in direction indicated every {{count}} turns and can take on forward diagonals in any turn."
+  },
+  "achievements": {
+    "lazy": {
+      "name": "Lazy",
+      "description_one": "Don't move for {{count}} consecutive turn",
+      "description_other": "Don't move for {{count}} consecutive turns"
+    },
+    "crowded": {
+      "name": "Crowded",
+      "description_one": "Have {{count}} piece on the board at the same time",
+      "description_other": "Have {{count}} pieces on the board at the same time"
+    },
+    "coronation": {
+      "name": "Coronation",
+      "description_one": "Have {{count}} king on the board at the same time",
+      "description_other": "Have {{count}} kings on the board at the same time"
+    },
+    "parapets": {
+      "name": "Parapets",
+      "description_one": "Have {{count}} rook on the board at the same time",
+      "description_other": "Have {{count}} rooks on the board at the same time"
+    },
+    "cathedral": {
+      "name": "Cathedral",
+      "description_one": "Have {{count}} bishop on the board at the same time",
+      "description_other": "Have {{count}} bishops on the board at the same time"
+    },
+    "bar_fight": {
+      "name": "Bar Fight",
+      "description_one": "Have {{count}} pawn on the board at the same time",
+      "description_other": "Have {{count}} pawns on the board at the same time"
+    },
+    "barracks": {
+      "name": "Barracks",
+      "description_one": "Have {{count}} pawn on the board at the same time (non-drunk mode)",
+      "description_other": "Have {{count}} pawns on the board at the same time (non-drunk mode)"
+    },
+    "stables": {
+      "name": "Stables",
+      "description_one": "Have {{count}} knight on the board at the same time",
+      "description_other": "Have {{count}} knights on the board at the same time"
+    },
+    "endgame": {
+      "name": "Endgame",
+      "description_one": "Have {{count}} queen on the board at the same time",
+      "description_other": "Have {{count}} queens on the board at the same time"
+    },
+    "no_place_to_hide": {
+      "name": "No Place to Hide",
+      "description_one": "Have {{count}} queen on the board at the same time",
+      "description_other": "Have {{count}} queens on the board at the same time"
+    },
+    "helltaker": {
+      "name": "Helltaker",
+      "description_one": "Have {{count}} queen on the board at the same time",
+      "description_other": "Have {{count}} queens on the board at the same time"
+    },
+    "10slay": {
+      "name": "10 Slayer",
+      "description_one": "Kill {{count}} opposing piece",
+      "description_other": "Kill {{count}} opposing pieces"
+    },
+    "100slay": {
+      "name": "Centurion",
+      "description_one": "Kill {{count}} opposing piece",
+      "description_other": "Kill {{count}} opposing pieces"
+    },
+    "500slay": {
+      "name": "Mountains of Ivory",
+      "description_one": "Kill {{count}} opposing piece",
+      "description_other": "Kill {{count}} opposing pieces"
+    },
+    "1000steps": {
+      "name": "Journey of 1000 Steps",
+      "description_one": "Walk {{count}} step",
+      "description_other": "Walk {{count}} steps"
+    },
+    "threatened": {
+      "name": "Living Dangerously",
+      "description_one": "End your turn on a threatened square {{count}} time in a row.",
+      "description_other": "End your turn on a threatened square {{count}} times in a row."
+    },
+    "triple_kill": {
+      "name": "Triple Kill",
+      "description_one": "Kill {{count}} piece in a row.",
+      "description_other": "Kill {{count}} pieces in a row."
+    },
+    "penta_kill": {
+      "name": "Penta Kill",
+      "description_one": "Kill {{count}} piece in a row.",
+      "description_other": "Kill {{count}} pieces in a row."
+    },
+    "hepta_kill": {
+      "name": "Hepta Kill",
+      "description_one": "Kill {{count}} piece in a row.",
+      "description_other": "Kill {{count}} pieces in a row."
+    },
+    "royal_pariah": {
+      "name": "Royal Pariah",
+      "description_one": "Have every single piece on the board.",
+      "description_other": "Have every single piece on the board."
+    },
+    "your_lucky_day": {
+      "name": "Your Lucky Day",
+      "description_one": "Avoid potentially getting captured {{count}} time in a row (drunk mode only)",
+      "description_other": "Avoid potentially getting captured {{count}} times in a row (drunk mode only)"
+    }
   }
 }
