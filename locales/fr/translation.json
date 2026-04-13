@@ -10,7 +10,7 @@
     "forfeit": "Perdre",
     "pacifist": "Pacifiste",
     "no_score_for_kills": "(Aucun point pour les éliminations)",
-    "knightmare": "Chevalier cauchemar",
+    "knightmare": "Cauchemar de chevalier",
     "only_knight_pieces": "(Seulement les pièces de cavalier)",
     "strategist": "Stratège",
     "pieces_have_move_order": "(Les pièces ont un ordre de mouvement)",
@@ -34,7 +34,7 @@
     "achievement_unlocked": "Succès débloqué !",
     "lost": "Vous avez perdu :",
     "score": "Votre score : ",
-    "instructions": "Directives",
+    "instructions": "Consignes",
     "score_count": "Score : ",
     "highscore": "Score élevé : ",
     "click_square": "Cliquez sur une case pour vous déplacer.",
@@ -46,7 +46,7 @@
   },
   "game": {
     "checkmate": "Échec et mat !",
-    "stalemate": "Impasse!"
+    "stalemate": "Impasse !"
   },
   "rules": {
     "turn_points_one": "{{count}} Point pour chaque tour sur le terrain",
@@ -57,10 +57,10 @@
     "piece_points_other": "{{count}} Points pour chaque cavalier, fou, tour pris",
     "queen_points_one": "{{count}} Un point pour chaque reine capturée",
     "queen_points_other": "{{count}} Points pour chaque reine capturée",
-    "pieces_start_small_one": "Les pièces commencent petites pour {{count}} le tour. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
+    "pieces_start_small_one": "Les pièces commencent petites pour {{count}} tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
     "pieces_start_small_other": "Les pièces commencent petites pendant {{count}} tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
     "pawns_move_one": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à tout moment.",
-    "pawns_move_other": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent capturer en diagonale vers l'avant à n'importe quel tour."
+    "pawns_move_other": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent prendre sur les diagonales avant à tout tour."
   },
   "achievements": {
     "lazy": {
