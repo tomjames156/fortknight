@@ -1,8 +1,8 @@
 {
   "ui": {
-    "title": "Caballerofuerte",
-    "subtitle": "Batalla campal de ajedrez",
-    "begin": "Comenzar",
+    "title": "Fortknight",
+    "subtitle": "Chess Battle Royale",
+    "begin": "Begin",
     "choose_lang": "Select a language",
     "game_mode": "Game Mode Choice",
     "classic": "Classic",

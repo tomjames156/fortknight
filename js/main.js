@@ -108,9 +108,17 @@ function forfeitGame() {
         didGameStart = false;
         isForfeited = true;
         boardModal.style.display = 'grid';
+
+        const currentScore = parseInt(document.getElementById('score').textContent.replace(/,/g, '')) || 0;
+        const formattedScore = new Intl.NumberFormat(i18next.language).format(playerScore);
+
         document.querySelector('.loss_modal').style.display = 'block';
-        document.querySelector('.loss_modal span').innerText =
-            playerScore + ' You have forfeited the game!';
+        const modalSpan = document.querySelector('.loss_modal span');
+
+        if (modalSpan) {
+            // 3. Translate and inject the entire string including the span and text
+            modalSpan.innerHTML = i18next.t('game.forfeit_status', { score: formattedScore });
+        }
         //updateHighscores(playerScore, gameMode);
         document.querySelector('.gmode').disabled = false;
         gameIsPlayed = false;
