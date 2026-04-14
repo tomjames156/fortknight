@@ -1,62 +1,62 @@
 {
   "ui": {
-    "title": "Fortknight",
-    "subtitle": "Chess Battle Royale",
-    "begin": "Begin",
-    "choose_lang": "Select a language",
-    "game_mode": "Game Mode Choice",
-    "classic": "Classic",
-    "arcade": "Arcade <text style='color: red'> (Pieces move based on a timer)</text>",
-    "pacifist": "Pacifist <text style='color: red'> (No score for kills)</text>",
-    "knightmare": "Knightmare <text style='color: red'> (Only knight pieces)</text>",
-    "strategist": "Strategist <text style='color: red'> (Pieces have move order)</text>",
-    "drunk": "Drunk pieces <text style='color: red'> (Pieces always move randomly)</text>",
-    "loop": "Loop Pieces <text style='color: red'> (Pieces on the edge rotate By 90 degrees Anti-Clockwise every move)</text>",
-    "faq": "FAQ",
-    "yes_i_know": "yes, i know the chessboard only has 7 squares, not 8, but i wanted a centre square",
-    "scores_and_achievements": "Scores and achievements",
-    "high_scores": "High scores",
-    "high_scores_by_game_mode": "High scores, by game mode",
-    "achievements": "Achievements",
-    "on": "ON",
-    "off": "OFF",
-    "toggle_moves": "<br>Toggle Knight's<br> possible moves",
-    "debug": "DEBUG",
-    "debug_info": "Debug Informations",
-    "move_timer": "Move Timer: ",
-    "achievement_unlocked": "Achievement Unlocked!",
-    "lost": "You lost :(",
-    "score": "Your score: <span class='fixed-color' style='color:white' id='final_score'>{{score}}</span>",
-    "instructions": "Instructions",
-    "score_count": "Score: <span id='score'>{{val}}</span>",
-    "highscore": "Highscore: <span id='hiscore'>{{val}}</span>",
-    "click_square": "Click on a square to move.",
-    "pieces_start": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "pawns_move": "Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any turn.",
-    "pawns_move_other": "Pawns move in direction indicated every {{count}} turns and can take on forward diagonals in any turn.",
-    "skip_turn": "To skip a turn, click your knight.",
-    "pieces_move": "Pieces will move to take your knight if they can; or randomly otherwise",
-    "small_pieces": "Small pieces block the movement of other pieces, but big pieces don't. However, you can land on small pieces and if a big piece can't move, it dies. ",
-    "scoring": "Scoring"
+    "title": "فورتنايت",
+    "subtitle": "معركة الشطرنج النهائية",
+    "begin": "ابدأ",
+    "choose_lang": "اختر لغة",
+    "game_mode": "اختيار وضع اللعبة",
+    "classic": "كلاسيكي",
+    "arcade": "أركدي <text style='color: red'>(تتحرك القطع وفقًا للمؤقت)</text>",
+    "pacifist": "المسالم <text style='color: red'> (لا توجد نقاط للقتل)</text>",
+    "knightmare": "فارس الكابوس <text style='color: red'> (قطع الفارس فقط)</text>",
+    "strategist": "استراتيجي <text style='color: red'> (للوحدات ترتيب حركتها)</text>",
+    "drunk": "القطع المخمورة <text style='color: red'>(القطع تتحرك دائمًا بشكل عشوائي)</text>",
+    "loop": "قطع الحلقة <text style='color: red'> (القطع على الحافَة تدور 90 درجة ضد عقارب الساعة في كل حركة)</text>",
+    "faq": "الأسئلة الشائعة",
+    "yes_i_know": "نعم، أعلم أن رقعة الشطرنج تحتوي على 7 مربعات فقط، وليس 8، لكنني أردت مربعًا في الوسط",
+    "scores_and_achievements": "النتائج والإنجازات",
+    "high_scores": "درجات عالية",
+    "high_scores_by_game_mode": "الدرجات العالية، حسب وضع اللعبة",
+    "achievements": "الإنجازات",
+    "on": "تشغيل",
+    "off": "إيقاف",
+    "toggle_moves": "تبديل حركات الفارس الممكنة",
+    "debug": "تصحيح الأخطاء",
+    "debug_info": "معلومات التصحيح",
+    "move_timer": "مؤقت الحركة ",
+    "achievement_unlocked": "تم تحقيق الإنجاز!",
+    "lost": "لقد خسرت :(",
+    "score": "نتيجتك: <span class='fixed-color' style='color:white' id='final_score'>{{score}}</span>",
+    "instructions": "تعليمات",
+    "score_count": "النتيجة: <span id='score'>{{val}}</span>",
+    "highscore": "أعلى نتيجة: <span id='hiscore'>{{val}}</span>",
+    "click_square": "اضغط على مربع للتحرك.",
+    "pieces_start": "تبدأ القطع صغيرة لمدة 3 أدوار. القطع الصغيرة غير مؤذية. اهبط على القطع لأخذها، لكن لا تدعها تهبط عليك!",
+    "pawns_move": "تتحرك البيادق في الاتجاه المحدد <b>كل دورين</b> ويمكنها التحرك على الأقطار الأمامية في أي دور.",
+    "pawns_move_other": "يتحرك الجنود في الاتجاه المحدد كل {{count}} دور ويمكنهم الهجوم على الأقطار الأمامية في أي دور.",
+    "skip_turn": "لتجاوز دور، انقر على فارسك.",
+    "pieces_move": "ستتحرك القطع لأخذ فارسكم إذا استطاعت؛ أو عشوائيًا خلاف ذلك",
+    "small_pieces": "القطع الصغيرة تمنع حركة القطع الأخرى، لكن القطع الكبيرة لا تفعل ذلك. ومع ذلك، يمكنك الهبوط على القطع الصغيرة وإذا لم تستطع القطعة الكبيرة التحرك، تموت ",
+    "scoring": "التسجيل"
   },
   "game": {
-    "checkmate": "Checkmate!",
-    "stalemate": "Stalemate!",
-    "forfeit_status": "<span class='fixed-color' style='color:white' id='final_score'>{{score}}</span> You have forfeited the game!"
+    "checkmate": "كش ملك!",
+    "stalemate": "تعادل!",
+    "forfeit_status": "<span class='fixed-color' style='color:white' id='final_score'>{{score}}</span> لقد استسلمت في اللعبة!"
   },
   "rules": {
-    "forfeit": "You must <button class='button' onclick='forfeitGame()'>forfeit</button> the game in order to change the game mode",
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+2 points for every king taken",
-    "scoring_rule_3": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_4": "+5 points for every queen taken",
-    "pieces_start_small": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "pawns_move": "Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any turn."
+    "forfeit": "يجب عليك <button class='button' onclick='forfeitGame()'>التخلي عن</button> اللعبة من أجل تغيير وضع اللعبة",
+    "scoring_rule_1": "+1 نقطة عن كل دورة في الملعب",
+    "scoring_rule_2": "+2 نِقَاط عن كل ملك يُؤخذ",
+    "scoring_rule_3": "+3 نِقَاط عن كل فارس أو أسقف أو رخ يُؤخذ",
+    "scoring_rule_4": "+5 نِقَاط مقابل كل ملكة يتم أخذها",
+    "pieces_start_small": "تبدأ القطع صغيرة لمدة 3 أدوار. القطع الصغيرة غير مؤذية. اهبط على القطع لأخذها، لكن لا تدعها تهبط عليك!",
+    "pawns_move": "تتحرك البيادق في الاتجاه المحدد <b>كل دورين</b> ويمكنها التحرك على الأقطار الأمامية في أي دور."
   },
   "pacifist": {
-    "scoring_rule_1": "Only get points for staying alive",
-    "scoring_rule_2": "0.25 points for every (big) pawn on the board",
-    "scoring_rule_3": "0.5 points for every knight, bishop, rook on the board",
+    "scoring_rule_1": "تحصل على النقاط فقط للبقاء على قيد الحياة",
+    "scoring_rule_2": "0.25 نقطة عن كل جندي (كبير) على اللوح",
+    "scoring_rule_3": "0.5 نقطة مقابل كل فارِس أو راهب أو رخ على اللوح",
     "scoring_rule_4": "+0.7 points for every (big) knight, bishop, rook on the board",
     "scoring_rule_5": "+1.25 points for every (big) queen on the board"
   },
@@ -136,68 +136,68 @@
     },
     "endgame": {
       "name": "Endgame",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "description_one": "لديك {{count}} ملكة على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} ملكات على اللوحة في نفس الوقت"
     },
     "no_place_to_hide": {
-      "name": "No Place to Hide",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "لا مكان للاختباء",
+      "description_one": "لديك {{count}} ملكات على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} ملكات على اللوحة في نفس الوقت"
     },
     "helltaker": {
-      "name": "Helltaker",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "هيلتيكر",
+      "description_one": "لديك {{count}} ملكات على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} ملكات على اللوحة في نفس الوقت"
     },
     "10slay": {
-      "name": "10 Slayer",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "10 قاتل",
+      "description_one": "اقتل {{العد}} السلاح الخَصْم",
+      "description_other": "اقتل {{العد}} السلاح الخَصْم"
     },
     "100slay": {
-      "name": "Centurion",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "سنتوريون",
+      "description_one": "اقتل {{العد}} السلاح الخَصْم",
+      "description_other": "اقتل {{العد}} السلاح الخصم"
     },
     "500slay": {
-      "name": "Mountains of Ivory",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "جبال العاج",
+      "description_one": "اقتل {{العد}} السلاح الخصم",
+      "description_other": "اقتل {{count}} قطعاً معادية"
     },
     "1000steps": {
-      "name": "Journey of 1000 Steps",
-      "description_one": "Walk {{count}} step",
-      "description_other": "Walk {{count}} steps"
+      "name": "رحلة الألف خطوة",
+      "description_one": "امشِ {{count}} خطوة",
+      "description_other": "امشِ {{count}} خطوة"
     },
     "threatened": {
-      "name": "Living Dangerously",
-      "description_one": "End your turn on a threatened square {{count}} time in a row.",
-      "description_other": "End your turn on a threatened square {{count}} times in a row."
+      "name": "العيش بخطر",
+      "description_one": "أنهِ دورك على مربّع مهدد {{count}} مرة على التوالي.",
+      "description_other": "أنهِ دورك على مربّع مهدد {{count}} مرة على التوالي."
     },
     "triple_kill": {
-      "name": "Triple Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "قتل ثلاثي",
+      "description_one": "اقتل {{count}} قطعة على التوالي.",
+      "description_other": "اقتل {{count}} قطع على التوالي."
     },
     "penta_kill": {
-      "name": "Penta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "خمسية قتل",
+      "description_one": "اقتل {{count}} قطعة على التوالي.",
+      "description_other": "اقتل {{count}} قطع على التوالي."
     },
     "hepta_kill": {
-      "name": "Hepta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "قتل سباعي",
+      "description_one": "اقتل {{count}} قطعة على التوالي.",
+      "description_other": "اقتل {{count}} قطع متتالية."
     },
     "royal_pariah": {
-      "name": "Royal Pariah",
-      "description_one": "Have every single piece on the board.",
-      "description_other": "Have every single piece on the board."
+      "name": "المنبوذ الملكي",
+      "description_one": "امتلك كل قطعة على اللوح.",
+      "description_other": "امتلك كل قطعة على اللوح."
     },
     "your_lucky_day": {
-      "name": "Your Lucky Day",
-      "description_one": "Avoid potentially getting captured {{count}} time in a row (drunk mode only)",
-      "description_other": "Avoid potentially getting captured {{count}} times in a row (drunk mode only)"
+      "name": "يومك المحظوظ",
+      "description_one": "تجنب التعرض للإمساك المحتمل {{count}} مرة على التوالي (وضع السكر فقط)",
+      "description_other": "تجنب التعرض للإمساك المحتمل {{count}} مرة على التوالي (وضع السكر فقط)"
     }
   }
 }

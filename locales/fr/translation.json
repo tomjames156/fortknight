@@ -28,12 +28,12 @@
     "lost": "Vous avez perdu :(",
     "score": "Votre score: <span class='fixed-color' style='color:white' id='final_score'>{{score}}</span>",
     "instructions": "Consignes",
-    "score_count": "Score: <span id='score'>{{val}}</span>",
+    "score_count": "Score élevé: <span id='hiscore'>{{val}}</span>",
     "highscore": "Score élevé: <span id='hiscore'>{{val}}</span>",
     "click_square": "Cliquez sur une case pour vous déplacer.",
     "pieces_start": "Les pièces commencent petites pour 3 tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
     "pawns_move": "Les pions se déplacent dans la direction indiquée tous les 2 tours et peuvent prendre en diagonale vers l'avant à tout tour.",
-    "pawns_move_other": "Pawns move in direction indicated every {{count}} turns and can take on forward diagonals in any turn.",
+    "pawns_move_other": "Les pions se déplacent dans la direction indiquée tous les {{count}} tours et peuvent prendre sur les diagonales avant à tout tour.",
     "skip_turn": "Pour passer un tour, cliquez sur votre cavalier.",
     "pieces_move": "Les pièces se déplaceront pour prendre votre cavalier si elles le peuvent ; ou au hasard sinon",
     "small_pieces": "Les petites pièces bloquent le mouvement des autres pièces, mais les grandes pièces ne le font pas. Cependant, vous pouvez atterrir sur les petites pièces et si une grande pièce ne peut pas bouger, elle meurt. ",
@@ -50,48 +50,48 @@
     "scoring_rule_2": "+2 points pour chaque roi capturé",
     "scoring_rule_3": "+3 points pour chaque cavalier, fou, tour pris",
     "scoring_rule_4": "+5 points pour chaque reine capturée",
-    "pieces_start_small": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
+    "pieces_start_small": "Les pièces commencent petites pour 3 tours. Les petites pièces sont inoffensives. Atterrissez sur les pièces pour les prendre, mais ne les laissez pas atterrir sur vous !",
     "pawns_move": "Les pions se déplacent dans la direction indiquée <b> tous les deux tours</b> et peuvent capturer en diagonale vers l'avant à tout moment."
   },
   "pacifist": {
-    "scoring_rule_1": "Only get points for staying alive",
-    "scoring_rule_2": "0.25 points for every (big) pawn on the board",
-    "scoring_rule_3": "0.5 points for every knight, bishop, rook on the board",
-    "scoring_rule_4": "+0.7 points for every (big) knight, bishop, rook on the board",
-    "scoring_rule_5": "+1.25 points for every (big) queen on the board"
+    "scoring_rule_1": "Obtenez des points uniquement pour rester en vie",
+    "scoring_rule_2": "0,25 point pour chaque pion (important) sur le plateau",
+    "scoring_rule_3": "0,5 points pour chaque cavalier, fou, tour pris",
+    "scoring_rule_4": "+0,7 points pour chaque cavalier, fou ou tour (important) sur l’échiquier",
+    "scoring_rule_5": "+1,25 points pour chaque reine (grande) sur l’échiquier"
   },
   "knightmare": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+3 points for every knight taken"
+    "scoring_rule_1": "+1 point pour chaque tour sur le terrain",
+    "scoring_rule_2": "+3 points pour chaque roi capturé"
   },
   "strategist": {
-    "scoring_rule_1": "Pieces will move in order rather than simultaneously",
-    "scoring_rule_2": "+1 point for every turn on the field",
-    "scoring_rule_3": "+1 point for every pawn taken",
-    "scoring_rule_4": "+2 points for every king taken",
-    "scoring_rule_5": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_6": "+5 points for every queen taken"
+    "scoring_rule_1": "Les pièces se déplaceront dans l'ordre plutôt que simultanément",
+    "scoring_rule_2": "+1 point pour chaque tour sur le terrain",
+    "scoring_rule_3": "+1 point pour chaque pion capturé",
+    "scoring_rule_4": "+2 points pour chaque roi capturé",
+    "scoring_rule_5": "+3 points pour chaque cavalier, fou, tour capturé",
+    "scoring_rule_6": "+5 points pour chaque reine capturée"
   },
   "drunk": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 point pour chaque tour sur le terrain",
+    "scoring_rule_2": "+1 point pour chaque pion capturé",
+    "scoring_rule_3": "+2 points pour chaque roi capturé",
+    "scoring_rule_4": "+3 points pour chaque cavalier, fou, tour capturé",
+    "scoring_rule_5": "+5 points pour chaque reine capturée"
   },
   "arcade": {
-    "scoring_rule_1": "+1 point for every 2.5 seconds on the field (the timer for the pieces moving)",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 point toutes les 2,5 secondes sur le terrain (le minuteur pour les pièces en mouvement)",
+    "scoring_rule_2": "+1 point pour chaque pion capturé",
+    "scoring_rule_3": "+2 points pour chaque roi capturé",
+    "scoring_rule_4": "+3 points pour chaque cavalier, fou, tour capturé",
+    "scoring_rule_5": "+5 points pour chaque reine capturée"
   },
   "loop": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 point pour chaque tour sur le terrain",
+    "scoring_rule_2": "+1 point pour chaque pion capturé",
+    "scoring_rule_3": "+2 points pour chaque roi capturé",
+    "scoring_rule_4": "+3 points pour chaque cavalier, fou, tour capturé",
+    "scoring_rule_5": "+5 points pour chaque reine capturée"
   },
   "achievements": {
     "lazy": {

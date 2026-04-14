@@ -1,8 +1,8 @@
 {
   "ui": {
-    "title": "Fortknight",
-    "subtitle": "Chess Battle Royale",
-    "begin": "Begin",
+    "title": "Caballerofuerte",
+    "subtitle": "Batalla campal de ajedrez",
+    "begin": "Comenzar",
     "choose_lang": "Select a language",
     "game_mode": "Game Mode Choice",
     "classic": "Classic",
@@ -32,7 +32,7 @@
     "highscore": "Highscore: <span id='hiscore'>{{val}}</span>",
     "click_square": "Click on a square to move.",
     "pieces_start": "Pieces start small for 3 turns. Small pieces are harmless. Land on pieces to take them, but don't let them land on you!",
-    "pawns_move": "Pawns move in direction indicated <b>every two turns</b> and can take on forward diagonals in any turn.",
+    "pawns_move": "Los peones se mueven en la dirección indicada <b>cada dos turnos</b> y pueden tomar diagonales hacia adelante en cualquier turno.",
     "pawns_move_other": "Pawns move in direction indicated every {{count}} turns and can take on forward diagonals in any turn.",
     "skip_turn": "To skip a turn, click your knight.",
     "pieces_move": "Pieces will move to take your knight if they can; or randomly otherwise",
