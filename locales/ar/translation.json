@@ -57,85 +57,85 @@
     "scoring_rule_1": "تحصل على النقاط فقط للبقاء على قيد الحياة",
     "scoring_rule_2": "0.25 نقطة عن كل جندي (كبير) على اللوح",
     "scoring_rule_3": "0.5 نقطة مقابل كل فارِس أو راهب أو رخ على اللوح",
-    "scoring_rule_4": "+0.7 points for every (big) knight, bishop, rook on the board",
-    "scoring_rule_5": "+1.25 points for every (big) queen on the board"
+    "scoring_rule_4": "+0.7 نقطة عن كل فارس (كبير) أو فيل أو رخ على الرقعة",
+    "scoring_rule_5": "+1.25 نقطة عن كل (ملكة كبيرة) على اللوح"
   },
   "knightmare": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+3 points for every knight taken"
+    "scoring_rule_1": "+1 نقطة عن كل دورة في الملعب",
+    "scoring_rule_2": "+3 نِقَاط عن كل فارس يُؤخذ"
   },
   "strategist": {
-    "scoring_rule_1": "Pieces will move in order rather than simultaneously",
-    "scoring_rule_2": "+1 point for every turn on the field",
-    "scoring_rule_3": "+1 point for every pawn taken",
-    "scoring_rule_4": "+2 points for every king taken",
-    "scoring_rule_5": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_6": "+5 points for every queen taken"
+    "scoring_rule_1": "ستتحرك القطع بالتتابع بدلًا من التحرك في نفس الوقت",
+    "scoring_rule_2": "+1 نقطة عن كل دورة في الملعب",
+    "scoring_rule_3": "+1 نقطة عن كل بيدق يُؤخذ",
+    "scoring_rule_4": "+2 نِقَاط عن كل ملك يُؤخذ",
+    "scoring_rule_5": "+3 نِقَاط عن كل فارس أو أسقف أو رخ يُؤخذ",
+    "scoring_rule_6": "+5 نِقَاط عن كل ملكة مأخوذة"
   },
   "drunk": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 نقطة عن كل دورة على الملعب",
+    "scoring_rule_2": "+1 نقطة عن كل بيدق يُؤخذ",
+    "scoring_rule_3": "+2 نِقَاط عن كل ملك يُؤخذ",
+    "scoring_rule_4": "+3 نِقَاط عن كل فارس أو أسقف أو رخ يُؤخذ",
+    "scoring_rule_5": "+5 نِقَاط عن كل ملكة مأخوذة"
   },
   "arcade": {
-    "scoring_rule_1": "+1 point for every 2.5 seconds on the field (the timer for the pieces moving)",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 نقطة لكل 2.5 ثانية في الميدان (المؤقت لحركة القطع)",
+    "scoring_rule_2": "+1 نقطة عن كل بيدق يُؤخذ",
+    "scoring_rule_3": "+2 نِقَاط عن كل ملك يُؤخذ",
+    "scoring_rule_4": "+3 نِقَاط عن كل فارس أو أسقف أو رخ يُؤخذ",
+    "scoring_rule_5": "+5 نِقَاط عن كل ملكة مأخوذة"
   },
   "loop": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+1 point for every pawn taken",
-    "scoring_rule_3": "+2 points for every king taken",
-    "scoring_rule_4": "+3 points for every knight, bishop, rook taken",
-    "scoring_rule_5": "+5 points for every queen taken"
+    "scoring_rule_1": "+1 نقطة عن كل دورة في الملعب",
+    "scoring_rule_2": "+1 نقطة عن كل بيدق يُؤخذ",
+    "scoring_rule_3": "+2 نِقَاط عن كل ملك يُؤخذ",
+    "scoring_rule_4": "+3 نِقَاط عن كل فارس أو أسقف أو رخ يُؤخذ",
+    "scoring_rule_5": "+5 نِقَاط عن كل ملكة يتم التقاطها"
   },
   "achievements": {
     "lazy": {
-      "name": "Lazy",
-      "description_one": "Don't move for {{count}} consecutive turn",
-      "description_other": "Don't move for {{count}} consecutive turns"
+      "name": "كسول",
+      "description_one": "لا تتحرك لمدة {{count}} دور متتالي",
+      "description_other": "لا تتحرك لمدة {{count}} دورات متتالية"
     },
     "crowded": {
-      "name": "Crowded",
-      "description_one": "Have {{count}} piece on the board at the same time",
-      "description_other": "Have {{count}} pieces on the board at the same time"
+      "name": "مزدحم",
+      "description_one": "لديك {{count}} قطعة على اللوح في نفس الوقت",
+      "description_other": "لديك {{count}} قطع على اللوحة في نفس الوقت"
     },
     "coronation": {
-      "name": "Coronation",
-      "description_one": "Have {{count}} king on the board at the same time",
-      "description_other": "Have {{count}} kings on the board at the same time"
+      "name": "تتويج",
+      "description_one": "لديك {{count}} ملك على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} ملوك على اللوحة في نفس الوقت"
     },
     "parapets": {
-      "name": "Parapets",
-      "description_one": "Have {{count}} rook on the board at the same time",
-      "description_other": "Have {{count}} rooks on the board at the same time"
+      "name": "حواجز",
+      "description_one": "لديك {{count}} رخ على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} رخ على اللوحة في نفس الوقت"
     },
     "cathedral": {
-      "name": "Cathedral",
-      "description_one": "Have {{count}} bishop on the board at the same time",
-      "description_other": "Have {{count}} bishops on the board at the same time"
+      "name": "كاتدرائية",
+      "description_one": "لديك {{count}} فِيل على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} من الأساقفة على اللوح في نفس الوقت"
     },
     "bar_fight": {
-      "name": "Bar Fight",
-      "description_one": "Have {{count}} pawn on the board at the same time",
-      "description_other": "Have {{count}} pawns on the board at the same time"
+      "name": "شجار في الحانة",
+      "description_one": "لديك {{count}} بيدق على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} جندياً على اللوح في نفس الوقت"
     },
     "barracks": {
-      "name": "Barracks",
-      "description_one": "Have {{count}} pawn on the board at the same time (non-drunk mode)",
-      "description_other": "Have {{count}} pawns on the board at the same time (non-drunk mode)"
+      "name": "ثكنات",
+      "description_one": "لديك {{count}} بيدق على اللوحة في نفس الوقت (الوضع غير المخمور)",
+      "description_other": "امتلك {{count}} بيدقاً على اللوح في نفس الوقت (وضع عدم السكر)"
     },
     "stables": {
-      "name": "Stables",
-      "description_one": "Have {{count}} knight on the board at the same time",
-      "description_other": "Have {{count}} knights on the board at the same time"
+      "name": "إسطبلات",
+      "description_one": "لديك {{count}} فارس على اللوحة في نفس الوقت",
+      "description_other": "لديك {{count}} فرسان على اللوحة في نفس الوقت"
     },
     "endgame": {
-      "name": "Endgame",
+      "name": "نهاية اللعبة",
       "description_one": "لديك {{count}} ملكة على اللوحة في نفس الوقت",
       "description_other": "لديك {{count}} ملكات على اللوحة في نفس الوقت"
     },
