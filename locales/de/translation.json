@@ -6,7 +6,7 @@
     "choose_lang": "Wählen Sie eine Sprache aus",
     "game_mode": "Spielmodusauswahl",
     "classic": "Klassiker",
-    "arcade": "Arcade <text style='color: red'> (Die Figuren bewegen sich zeitgesteuert)</text>",
+    "arcade": "Arkade <text style='color: red'> (Die Figuren bewegen sich zeitgesteuert)</text>",
     "pacifist": "Pazifist <text style='color: red'> (Keine Punkte für tötet",
     "knightmare": "Albtraum<text style='color: red'> (Nur Springendfiguren)</text>",
     "strategist": "Stratege <text style='color: red'> (Die Figuren haben eine Zugreihenfolge)</text>",
@@ -23,7 +23,7 @@
     "toggle_moves": "<br>Toggle Knights<br> mögliche Züge",
     "debug": "DEBUGGEN",
     "debug_info": "Depot-Informationen",
-    "move_timer": "Bewegungstürmer:",
+    "move_timer": "Bewegungstürmer: ",
     "achievement_unlocked": "Erfolg freigeschaltet!",
     "lost": "Du hast verloren :(",
     "score": "Ihr Ergebnis: <span class='fixed-color' style='color:white' id='final_score'>{{score}}</span>",
@@ -31,7 +31,7 @@
     "score_count": "Punktzahl: <span id='score'>{{val}}</span>",
     "highscore": "Highscore: <span id='hiscore'>{{val}}</span>",
     "click_square": "Klicken Sie auf ein Quadrat, um es zu bewegen.",
-    "pieces_start": "Die Spielsteine ​​sind zu Beginn der ersten drei Runden klein. Kleine Spielsteine ​​sind harmlos. Lande auf Spielsteinen, um sie zu nehmen, aber lass dich nicht von ihnen treffen!",
+    "pieces_start": "Die Spielsteine 3​​sind zu Beginn der ersten drei Runden klein. Kleine Spielsteine ​​sind harmlos. Lande auf Spielsteinen, um sie zu nehmen, aber lass dich nicht von ihnen treffen!",
     "pawns_move": "Die Spielfiguren bewegen sich <b>alle zwei Züge</b> in die angegebene Richtung und können in jedem Zug diagonal nach vorne ziehen.",
     "pawns_move_other": "Die Spielfiguren bewegen sich alle {{count}} Züge in die angegebene Richtung und können in jedem Zug diagonal nach vorne ziehen.",
     "skip_turn": "Um eine Runde auszusetzen, klicke auf deinen Springer.",
@@ -58,14 +58,14 @@
     "scoring_rule_2": "0,25 Punkte für jeden (großen) Bauern auf dem Brett.",
     "scoring_rule_3": "0,5 Punkte für jeden Springer, Läufer und Turm auf dem Brett.",
     "scoring_rule_4": "+0,7 Punkte für jeden (großen) Springer, Läufer und Turm auf dem Brett.",
-    "scoring_rule_5": "+1.25 points for every (big) queen on the board"
+    "scoring_rule_5": "+1,25 Punkte für jede (große) Dame auf dem Brett"
   },
   "knightmare": {
-    "scoring_rule_1": "+1 point for every turn on the field",
-    "scoring_rule_2": "+3 points for every knight taken"
+    "scoring_rule_1": "+1 Punkt für jeden Zug auf dem Spielfeld",
+    "scoring_rule_2": "+3 Punkte für jeden gefangenen Ritter"
   },
   "strategist": {
-    "scoring_rule_1": "Pieces will move in order rather than simultaneously",
+    "scoring_rule_1": "Die Figuren bewegen sich der Reihe nach, nicht gleichzeitig",
     "scoring_rule_2": "+1 Punkt für jeden Zug auf dem Spielfeld",
     "scoring_rule_3": "+1 Punkt für jeden geschlagenen Bauern",
     "scoring_rule_4": "+2 Punkte für jeden geschlagenen König",
@@ -95,109 +95,109 @@
   },
   "achievements": {
     "lazy": {
-      "name": "",
-      "description_one": "Don't move for {{count}} consecutive turn",
-      "description_other": "Don't move for {{count}} consecutive turns"
+      "name": "faul",
+      "description_one": "Bewege dich {{count}} aufeinanderfolgende Runden lang nicht",
+      "description_other": "Bewege dich {{count}} aufeinanderfolgende Runden lang nicht"
     },
     "crowded": {
-      "name": "Crowded",
-      "description_one": "Have {{count}} piece on the board at the same time",
-      "description_other": "Have {{count}} pieces on the board at the same time"
+      "name": "Überfüllt",
+      "description_one": "Es sollten {{count}} Spielsteine ​​gleichzeitig auf dem Brett sein.",
+      "description_other": "Es sollen {{count}} Spielsteine ​​gleichzeitig auf dem Brett sein."
     },
     "coronation": {
-      "name": "Coronation",
-      "description_one": "Have {{count}} king on the board at the same time",
-      "description_other": "Have {{count}} kings on the board at the same time"
+      "name": "Krönung",
+      "description_one": "Sorge dafür, dass {{count}} Könige gleichzeitig auf dem Brett sind.",
+      "description_other": "Es sollten {{count}} Könige gleichzeitig auf dem Brett sein"
     },
     "parapets": {
-      "name": "Parapets",
-      "description_one": "Have {{count}} rook on the board at the same time",
-      "description_other": "Have {{count}} rooks on the board at the same time"
+      "name": "Brüstungen",
+      "description_one": "Habe {{count}} Türme gleichzeitig auf dem Brett.",
+      "description_other": "Es sollen {{count}} Türme gleichzeitig auf dem Brett sein."
     },
     "cathedral": {
       "name": "Cathedral",
-      "description_one": "Have {{count}} bishop on the board at the same time",
-      "description_other": "Have {{count}} bishops on the board at the same time"
+      "description_one": "Habe {{count}} Läufer gleichzeitig auf dem Brett.",
+      "description_other": "Es sollten {{count}} Läufer gleichzeitig auf dem Brett sein"
     },
     "bar_fight": {
-      "name": "Bar Fight",
-      "description_one": "Have {{count}} pawn on the board at the same time",
-      "description_other": "Have {{count}} pawns on the board at the same time"
+      "name": "Kneipenschlägerei",
+      "description_one": "Habe {{count}} Bauern gleichzeitig auf dem Brett",
+      "description_other": "Es sollen {{count}} Spielfiguren gleichzeitig auf dem Brett sein"
     },
     "barracks": {
-      "name": "Barracks",
-      "description_one": "Have {{count}} pawn on the board at the same time (non-drunk mode)",
-      "description_other": "Have {{count}} pawns on the board at the same time (non-drunk mode)"
+      "name": "Kaserne",
+      "description_one": "Habe {{count}} Spielfiguren gleichzeitig auf dem Brett (nicht betrunkener Modus)",
+      "description_other": "Es sollen {{count}} Spielfiguren gleichzeitig auf dem Spielbrett sein (im Normalmodus)"
     },
     "stables": {
-      "name": "Stables",
-      "description_one": "Have {{count}} knight on the board at the same time",
-      "description_other": "Have {{count}} knights on the board at the same time"
+      "name": "Stallungen",
+      "description_one": "Habe {{count}} Springer gleichzeitig auf dem Brett",
+      "description_other": "Es sollen {{count}} Springer gleichzeitig auf dem Brett sein"
     },
     "endgame": {
-      "name": "Endgame",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "Endspiel",
+      "description_one": "Habe {{count}} Damen gleichzeitig auf dem Brett",
+      "description_other": "Es sollten {{count}} Damen gleichzeitig auf dem Brett sein"
     },
     "no_place_to_hide": {
-      "name": "No Place to Hide",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "name": "Kein Ort zum Verstecken",
+      "description_one": "Habe {{count}} Damen gleichzeitig auf dem Brett",
+      "description_other": "Es sollten {{count}} Damen gleichzeitig auf dem Brett sein"
     },
     "helltaker": {
       "name": "Helltaker",
-      "description_one": "Have {{count}} queen on the board at the same time",
-      "description_other": "Have {{count}} queens on the board at the same time"
+      "description_one": "Habe {{count}} Damen gleichzeitig auf dem Brett",
+      "description_other": "Es sollten {{count}} Damen gleichzeitig auf dem Brett sein"
     },
     "10slay": {
       "name": "10 Slayer",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "description_one": "Zerstöre {{count}} gegnerische Figuren",
+      "description_other": "Zerstöre {{count}} gegnerische Figuren"
     },
     "100slay": {
-      "name": "Centurion",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "Zenturio",
+      "description_one": "Zerstöre {{count}} gegnerische Figuren",
+      "description_other": "Zerstöre {{count}} gegnerische Figuren"
     },
     "500slay": {
-      "name": "Mountains of Ivory",
-      "description_one": "Kill {{count}} opposing piece",
-      "description_other": "Kill {{count}} opposing pieces"
+      "name": "Berge aus Elfenbein",
+      "description_one": "Zerstöre {{count}} gegnerische Figuren",
+      "description_other": "Zerstöre {{count}} gegnerische Figuren"
     },
     "1000steps": {
-      "name": "Journey of 1000 Steps",
-      "description_one": "Walk {{count}} step",
-      "description_other": "Walk {{count}} steps"
+      "name": "Die Reise der 1000 Stufen",
+      "description_one": "Gehen Sie {{count}} Schritte",
+      "description_other": "Gehen Sie {{count}} Schritte"
     },
     "threatened": {
-      "name": "Living Dangerously",
-      "description_one": "End your turn on a threatened square {{count}} time in a row.",
-      "description_other": "End your turn on a threatened square {{count}} times in a row."
+      "name": "Gefährlich leben",
+      "description_one": "Beende deinen Zug {{count}} Mal hintereinander auf einem bedrohten Feld.",
+      "description_other": "Beende deinen Zug {{count}} Mal hintereinander auf einem bedrohten Feld."
     },
     "triple_kill": {
-      "name": "Triple Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Dreifacher Kill",
+      "description_one": "Zerstöre {{count}} Steine ​​in Folge.",
+      "description_other": "Zerstöre {{count}} Spielsteine ​​in Folge."
     },
     "penta_kill": {
-      "name": "Penta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Delta-töten",
+      "description_one": "Zerstöre {{count}} Stück in Folge.",
+      "description_other": "Zerstöre {{count}} Spielsteine ​​in Folge."
     },
     "hepta_kill": {
-      "name": "Hepta Kill",
-      "description_one": "Kill {{count}} piece in a row.",
-      "description_other": "Kill {{count}} pieces in a row."
+      "name": "Heft-Tötung",
+      "description_one": "Zerstöre {{count}} Steine ​​in Folge.",
+      "description_other": "Zerstöre {{count}} Spielsteine ​​in Folge."
     },
     "royal_pariah": {
-      "name": "Royal Pariah",
-      "description_one": "Have every single piece on the board.",
-      "description_other": "Have every single piece on the board."
+      "name": "Königlicher Paria",
+      "description_one": "Alle Figuren müssen auf dem Brett sein.",
+      "description_other": "Alle Figuren müssen auf dem Brett sein."
     },
     "your_lucky_day": {
-      "name": "Your Lucky Day",
-      "description_one": "Avoid potentially getting captured {{count}} time in a row (drunk mode only)",
-      "description_other": "Avoid potentially getting captured {{count}} times in a row (drunk mode only)"
+      "name": "Dein Glückstag",
+      "description_one": "Vermeide es, {{count}} Mal hintereinander erwischt zu werden (nur im Betrunkenenmodus)",
+      "description_other": "Vermeide es, {{count}} Mal hintereinander erwischt zu werden (nur im Betrunkenenmodus)"
     }
   }
 }
