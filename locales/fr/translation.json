@@ -41,7 +41,7 @@
   },
   "game": {
     "checkmate": "Échec et mat !",
-    "stalemate": "Impasse!",
+    "stalemate": "Impasse !",
     "forfeit_status": "<span class='fixed-color' style='color:white' id='final_score'>{{score}}</span> Vous avez déclaré forfait !"
   },
   "rules": {
